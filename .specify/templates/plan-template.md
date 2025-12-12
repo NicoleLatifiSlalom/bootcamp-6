@@ -31,7 +31,16 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+Verify feature compliance with `.specify/memory/constitution.md` principles:
+
+- [ ] **Single Responsibility & SOLID**: Components have single responsibility, follow SOLID
+- [ ] **Code Quality (DRY, KISS)**: No duplication planned, simple approach preferred
+- [ ] **Comprehensive Testing**: 80%+ test coverage planned, TDD approach defined
+- [ ] **Error Handling**: All failure points have graceful error handling
+- [ ] **Code Style & Organization**: Follows naming conventions, import order, ESLint rules
+- [ ] **User-Centered Design**: Accessible, Material Design compliant, 8px grid system
+
+**Violations (if any)**: Document in Complexity Tracking section below with justification
 
 ## Project Structure
 
